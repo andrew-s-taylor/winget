@@ -9,6 +9,11 @@ InstallerType: exe
 Tags:
 - PDF
 - Foxit
+- ICON=https://cdn.imgbin.com/1/24/20/imgbin-foxit-reader-pdf-foxit-software-computer-icons-adobe-acrobat-top-view-m5LPTpiUBTVMVjaHzkfHBRtDb.jpg
+- DETECTION=Get-ChildItem 'C:\Program Files(x86)\Foxit Software\Foxit Reader\unins000.exe"
+- UNINSTALL="%ProgramFiles%\Foxit Software\Foxit Reader\unins000.exe" /silent
+- ADGROUPI=Intune-App-FoxitReader-Install
+- ADGROUPU=Intune-App-FoxitReader-Uninstall 
 ShortDescription: Industry's Most Powerful PDF Reader.
 PackageUrl: https://www.foxitsoftware.com/pdf-editor/
 Installers:
@@ -21,3 +26,4 @@ Installers:
 PackageLocale: en-US
 ManifestType: singleton
 ManifestVersion: 1.0.0
+MinimumOSVersion: 10.0.18362.0
