@@ -10,7 +10,7 @@ Tags:
 - PDF
 - Foxit
 - ICON=https://cdn.imgbin.com/1/24/20/imgbin-foxit-reader-pdf-foxit-software-computer-icons-adobe-acrobat-top-view-m5LPTpiUBTVMVjaHzkfHBRtDb.jpg
-- DETECTION=Get-ChildItem 'C:\Program Files(x86)\Foxit Software\Foxit Reader\unins000.exe'
+- DETECTION="c:\program files(x86)\Foxit Software\Foxit Reader\FoxitReader.exe"
 - UNINSTALLCOMMAND="%ProgramFiles%\Foxit Software\Foxit Reader\unins000.exe" /silent
 - ADGROUPI=Intune-App-FoxitReader-Install
 - ADGROUPU=Intune-App-FoxitReader-Uninstall 
