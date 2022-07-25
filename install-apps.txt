@@ -1,0 +1,2 @@
+WinMerge.WinMerge
+SumatraPDF.SumatraPDF
