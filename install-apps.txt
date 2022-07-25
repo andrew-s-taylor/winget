@@ -1,2 +1,3 @@
+Version 1.0
 WinMerge.WinMerge
 SumatraPDF.SumatraPDF
