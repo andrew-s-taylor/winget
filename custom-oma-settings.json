@@ -1,0 +1,89 @@
+{
+    "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceConfigurations/$entity",
+    "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
+    "roleScopeTagIds": [
+        "0"
+    ],
+    "supportsScopeTags": true,
+    "deviceManagementApplicabilityRuleOsEdition": null,
+    "deviceManagementApplicabilityRuleOsVersion": null,
+    "deviceManagementApplicabilityRuleDeviceMode": null,
+    "createdDateTime": "2022-12-01T15:07:11.958467Z",
+    "description": "Winget Settings",
+    "displayName": "Winget Custom Policy",
+    "version": 9,
+    "omaSettings": [
+        {
+            "@odata.type": "#microsoft.graph.omaSettingString",
+            "displayName": "Enable Default Source",
+            "description": null,
+            "omaUri": "./Device/Vendor/MSFT/Policy/Config/DesktopAppInstaller/EnableDefaultSource",
+            "secretReferenceValueId": "71817a9e-6bfa-4236-bdfb-cf7e4d93a38f_af065675-ae98-4289-ae93-eef249fdd3aa_cb17e87b-6474-48d4-861c-a479edcd3384",
+            "isEncrypted": true,
+            "value": "****"
+        },
+        {
+            "@odata.type": "#microsoft.graph.omaSettingString",
+            "displayName": "Enable Local Manifest Files",
+            "description": null,
+            "omaUri": "./Device/Vendor/MSFT/Policy/Config/DesktopAppInstaller/EnableLocalManifestFiles",
+            "secretReferenceValueId": "71817a9e-6bfa-4236-bdfb-cf7e4d93a38f_af065675-ae98-4289-ae93-eef249fdd3aa_c81aebf1-9265-4a98-8f9c-4d89acace059",
+            "isEncrypted": true,
+            "value": "****"
+        },
+        {
+            "@odata.type": "#microsoft.graph.omaSettingString",
+            "displayName": "Enable Hash Override",
+            "description": null,
+            "omaUri": "./Device/Vendor/MSFT/Policy/Config/DesktopAppInstaller/EnableHashOverride",
+            "secretReferenceValueId": "71817a9e-6bfa-4236-bdfb-cf7e4d93a38f_af065675-ae98-4289-ae93-eef249fdd3aa_6546dcf2-1292-4a17-94ae-4841fb3a6e56",
+            "isEncrypted": true,
+            "value": "****"
+        },
+        {
+            "@odata.type": "#microsoft.graph.omaSettingString",
+            "displayName": "Enable Microsoft Store Source",
+            "description": null,
+            "omaUri": "./Device/Vendor/MSFT/Policy/Config/DesktopAppInstaller/EnableMicrosoftStoreSource",
+            "secretReferenceValueId": "71817a9e-6bfa-4236-bdfb-cf7e4d93a38f_af065675-ae98-4289-ae93-eef249fdd3aa_7759257c-6d37-41d4-a507-8096a219c1b9",
+            "isEncrypted": true,
+            "value": "****"
+        },
+        {
+            "@odata.type": "#microsoft.graph.omaSettingString",
+            "displayName": "Enable MS App Installer Protocol",
+            "description": null,
+            "omaUri": "./Device/Vendor/MSFT/Policy/Config/DesktopAppInstaller/EnableMSAppInstallerProtocol",
+            "secretReferenceValueId": "71817a9e-6bfa-4236-bdfb-cf7e4d93a38f_af065675-ae98-4289-ae93-eef249fdd3aa_2fb0de59-19a0-4138-b7e9-2d0534b697d4",
+            "isEncrypted": true,
+            "value": "****"
+        },
+        {
+            "@odata.type": "#microsoft.graph.omaSettingString",
+            "displayName": "Enable Settings",
+            "description": null,
+            "omaUri": "./Device/Vendor/MSFT/Policy/Config/DesktopAppInstaller/EnableSettings",
+            "secretReferenceValueId": "71817a9e-6bfa-4236-bdfb-cf7e4d93a38f_af065675-ae98-4289-ae93-eef249fdd3aa_43b52504-8e27-492e-9aac-902807eec94d",
+            "isEncrypted": true,
+            "value": "****"
+        },
+        {
+            "@odata.type": "#microsoft.graph.omaSettingString",
+            "displayName": "Enable Experimental Features",
+            "description": null,
+            "omaUri": "./Device/Vendor/MSFT/Policy/Config/DesktopAppInstaller/EnableExperimentalFeatures",
+            "secretReferenceValueId": "71817a9e-6bfa-4236-bdfb-cf7e4d93a38f_af065675-ae98-4289-ae93-eef249fdd3aa_5c9d096d-04d1-4100-bdfc-87886c11949b",
+            "isEncrypted": true,
+            "value": "****"
+        },
+        {
+            "@odata.type": "#microsoft.graph.omaSettingString",
+            "displayName": "Enable App Installer",
+            "description": null,
+            "omaUri": "./Device/Vendor/MSFT/Policy/Config/DesktopAppInstaller/EnableAppInstaller",
+            "secretReferenceValueId": "71817a9e-6bfa-4236-bdfb-cf7e4d93a38f_af065675-ae98-4289-ae93-eef249fdd3aa_d4318719-6119-41df-a81c-1e6dcb628e40",
+            "isEncrypted": true,
+            "value": "****"
+        }
+    ]
+}
